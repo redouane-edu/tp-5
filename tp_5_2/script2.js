@@ -7,7 +7,7 @@ while (true) {
   guess = parseInt(prompt("Devine le nombre entre 1 et 10 :"));
   c++;
 
-  if (isNaN(guess) || guess < 1 || guess > 10) {
+  if (guess < 1 || guess > 10) {
     alert("Entrez un nombre valide entre 1 et 10 !");
     continue;
   }
