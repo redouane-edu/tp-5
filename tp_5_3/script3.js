@@ -25,6 +25,6 @@ const QUESTIONS = [
       }
     }
 
-    // Affichage du score final
+    
     alert(`Vous avez répondu correctement à ${score} question(s) sur ${QUESTIONS.length}`);
   }
