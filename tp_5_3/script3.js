@@ -1,13 +1,13 @@
-// 1. Préparer les questions
+
 const QUESTIONS = [
-    ["Quelle est la capitale de la France ?", "Paris"],
-    ["Combien y a-t-il de continents sur Terre ?", "7"],
-    ["Quel est l'élément chimique représenté par H ?", "Hydrogène"],
-    ["Quelle est la langue la plus parlée dans le monde ?", "Chinois"],
-    ["Quel est le plus grand océan du monde ?", "Pacifique"]
+    ["what is the html tag for the strongest text", "<h1>"],
+    ["What is the correct HTML element for inserting a line break?", "<br>"],
+    ["what is the correct HTML element to define emphasized text?", " <em>"],
+    ["what is the tag for adding image in html", "<img>"],
+    ["what is the for make text bold", "  <b>"],
   ];
 
-  // 2-3-4. Fonction principale du quiz
+  
   function lancerQuiz() {
     let score = 0;
 
